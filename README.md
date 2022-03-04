@@ -8,6 +8,8 @@ An empirical approach to where I should live.
 
 ### Repo contents
 
-- misc
-- scripts
-- scratch
+- data: Various rasters, shapefiles, tabular data
+- misc:
+- output:
+- scratch:
+- scripts:
