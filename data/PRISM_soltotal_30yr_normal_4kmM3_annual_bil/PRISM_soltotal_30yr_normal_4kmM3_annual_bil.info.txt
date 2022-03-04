@@ -1,0 +1,6 @@
+PRISM_DATASET_FILENAME: us_soltotal_01.bil, us_soltotal_02.bil, us_soltotal_03.bil, us_soltotal_04.bil, us_soltotal_05.bil, us_soltotal_06.bil, us_soltotal_07.bil, us_soltotal_08.bil, us_soltotal_09.bil, us_soltotal_10.bil, us_soltotal_11.bil, us_soltotal_12.bil
+PRISM_DATASET_CREATE_DATE: 20211105
+PRISM_DATASET_TYPE: an81/r2103h
+PRISM_DATASET_VERSION: M3
+PRISM_CODE_VERSION: 16.1-20210412-1020
+PRISM_DATASET_REMARKS: This grid was developed in three steps:  (1) solar radiation was initially modeled with IPW/TOPORAD and PRISM at 30-arc-second (~800-m) resolution for each month of the year to produce the source grids listed under PRISM_DATASET_FILENAME, on the date(s) listed under PRISM_DATASET_CREATE_DATE; (2) these twelve 800-m grids were upscaled to 2.5- arc-minute (~4-km) resolution with a Gaussian filter; and (3) the resulting twelve 4-km grids were averaged to obtain a 4-km annual grid.

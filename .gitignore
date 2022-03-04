@@ -1,0 +1,14 @@
+# Markdown output
+*.html
+
+# Robyn raw files
+*init/
+
+# R history files
+*.Rhistory
+
+# R data files
+*.RDS
+
+# Data Services Storage
+.DS_Store

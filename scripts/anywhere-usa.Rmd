@@ -1,0 +1,53 @@
+---
+title: 'Anywhere, USA'
+subtitle: 'An Empirical Perspective to Living'
+author: 'EGG'
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+knit: (function(inputFile, encoding) {rmarkdown::render(inputFile, output_dir = paste0(dirname(getwd()), '/output/'))})
+header-includes:
+  - \geometry{paperwidth=200mm}
+  - \color{black}
+  - \usepackage{fontspec, lipsum}
+  - \setmainfont{SF Pro Text}
+  - \pagenumbering{gobble}
+output: 
+  pdf_document:
+    latex_engine: xelatex
+    highlight: zenburn
+    fig_caption: true
+urlcolor: blue
+---
+
+# Intro
+
+# Methods
+
+# Results
+
+# Discussion
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r west, echo=F, fig.align='center', out.width='100%', fig.cap='Consideration Set'}
+knitr::include_graphics(here::here('output', 'west.png'))
+```
+
+```{r provo, echo=F, fig.align='center', out.width='100%', fig.cap='km$\\textsuperscript{2}$ in Provo, Utah with >= 1000 inhabitants'}
+knitr::include_graphics(here::here('output', 'provo.png'))
+```
+
+```{r utah, echo=F, fig.align='center', out.width='100%', fig.cap='Population centers in and around Utah, USA'}
+knitr::include_graphics(here::here('output', 'utah.png'))
+```
+
+```{r utah-centers, echo=F, fig.align='center', out.width='100%', fig.cap='Named population centers in and and around Utah, USA'}
+knitr::include_graphics(here::here('output', 'utah-centers.png'))
+```
+
+```{r moab-buffers, echo=F, fig.align='center', out.width='100%', fig.cap='10, 50, 150 and 300 mile buffers around Moab, Utah'}
+knitr::include_graphics(here::here('output', 'moab-buffers.png'))
+```
+
+\vspace*{1cm}

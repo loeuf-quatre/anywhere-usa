@@ -1,0 +1,6 @@
+PRISM_DATASET_FILENAME: dem_tmean_us_us_30s_912001.bil, dem_tmean_us_us_30s_912002.bil, dem_tmean_us_us_30s_912003.bil, dem_tmean_us_us_30s_912004.bil, dem_tmean_us_us_30s_912005.bil, dem_tmean_us_us_30s_912006.bil, dem_tmean_us_us_30s_912007.bil, dem_tmean_us_us_30s_912008.bil, dem_tmean_us_us_30s_912009.bil, dem_tmean_us_us_30s_912010.bil, dem_tmean_us_us_30s_912011.bil, dem_tmean_us_us_30s_912012.bil
+PRISM_DATASET_CREATE_DATE: 20211014
+PRISM_DATASET_TYPE: an81/r2103h
+PRISM_DATASET_VERSION: M3
+PRISM_CODE_VERSION: 16.1-20210412-1020
+PRISM_DATASET_REMARKS: This grid was developed in four steps:  (1) tmin and tmax were initially modeled with PRISM at 30-arc-second (~800-m) resolution for each month of the year to produce the source grids listed under PRISM_DATASET_FILENAME, on the date(s) listed under PRISM_DATASET_CREATE_DATE; (2) these twelve monthly 800-m tmin and tmax grids were upscaled to 2.5-arc-minute (~4-km) resolution with a Gaussian filter; (3) the 4-km tmin and tmax grids were averaged to obtain twelve monthly 4-km mean temperature grids; and (4) the resulting twelve monthly 4-km grids were averaged to obtain a 4-km mean annual temperature grid.
